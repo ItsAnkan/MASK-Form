@@ -1,0 +1,14 @@
+{% extends "_base.njk" %}
+
+{% block body %}
+    <div id="toplayer">
+        <form action="/login" method="post">
+            <span>Username</span>
+            <textarea name="username" id="username" placeholder="Enter Username"></textarea>
+            <span>Password</span>
+            <textarea name="passwd" id="passwd" placeholder="Enter Password"></textarea>
+            <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}

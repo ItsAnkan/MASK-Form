@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        button {
+            background-color: #f10808;
+            padding: 10px;
+            color: aliceblue;
+            transition: background-color 0.2s ease 0.2s;
+        }
+        button:hover{
+            background-color: #060606;
+        }
+    </style>
+    <title>Login</title>
+</head>
+<body>
+    <div id="toplayer">
+        <form action="/login" method="post">
+            <span>Username</span>
+            <textarea name="username" id="username" placeholder="Enter Username"></textarea>
+            <span>Password</span>
+            <textarea name="passwd" id="passwd" placeholder="Enter Password"></textarea>
+            <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
