@@ -14,3 +14,5 @@ router.post("/", function(req, res, next){
     var email = req.body.email;
     console.log(username, passwd, confrm_passwd, email);
 })
+
+module.exports = router;
