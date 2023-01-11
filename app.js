@@ -17,7 +17,7 @@ app.set("view engine", "njk");
 app.use("/login", loginRouter);
 app.use("/register", registerRouter);
 
-const env = nunjucks.configure(path.join(__dirname, '../templates'),
+const env = nunjucks.configure(path.join(__dirname, 'templates'),
     {
         autoescape: true,
         express: app

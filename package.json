@@ -4,7 +4,8 @@
   "description": "Form pages for MASK using NodeJS, ExpressJS and MongoDB",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/ItsAnkan/MASK-Form#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "mongodb": "^4.13.0",
     "nunjucks": "^3.2.3"
   }
 }

@@ -4,9 +4,9 @@
     <div id="toplayer">
         <form action="/login" method="post">
             <span>Username</span>
-            <textarea name="username" id="username" placeholder="Enter Username"></textarea>
+            <textarea name="username" id="username" placeholder="Enter Username">{% if username %}{{username}}{% endif %}</textarea>
             <span>Password</span>
-            <textarea name="passwd" id="passwd" placeholder="Enter Password"></textarea>
+            <textarea name="passwd" id="passwd" placeholder="Enter Password">{% if passwd %}{{passwd}}{% endif %}</textarea>
             <button type="submit">Login</button>
             </div>
         </form>
